@@ -1,0 +1,70 @@
+*{
+     background-color: hsl(204, 43%, 93%);
+     font-family: sans-serif;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+div#first{
+    width: 87%;
+    padding:30px;
+    margin-bottom: 20px;
+}
+div#first h1{
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 25px;
+}
+
+div#first h2{
+    color:hsl(71, 73%, 54%);
+    margin-bottom: 15px;
+}
+
+div#first p{
+    color: hsl(218, 22%, 67%);
+}
+
+
+div#second {
+    padding-left: 27px;
+    background-color: hsl(186, 62%, 43%);
+    height: 300px;
+    float: left;
+    color: white;
+    width: 50%;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    border-right: 0;
+}
+
+#month{
+    padding-top: 30px;
+    background-color: hsl(186, 62%, 43%);
+    font-size: 27px;
+    margin: 0 0 25px 0;
+}
+
+.dollar{
+    background-color: hsl(186, 62%, 43%);
+    font-size: 35px;
+    display: inline;
+}
+
+#per{
+    border:1px solid black;
+    display: inline;
+    text-align: center;
+    background-color: inherit;
+    color: rgba(170, 170, 170, 0.9);
+}
+
+div#third {
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    height: 300px;
+    float: right;
+    font-size: 24px;
+    color: white;
+    border:1px solid rgba(0, 0, 0, 0.5);
+}
+
+
