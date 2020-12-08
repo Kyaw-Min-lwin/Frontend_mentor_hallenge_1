@@ -1,39 +1,49 @@
 *{
-     background-color: hsl(204, 43%, 93%);
      font-family: sans-serif;
      margin: 0;
      box-sizing: border-box;
 }
-
+body{
+    background-color: rgba(23, 234, 231, 0.2);
+}
 div#first{
+    font-size: large;
     width: 87%;
-    padding:30px;
-    margin-bottom: 20px;
+    padding:30px 0px 30px 40px;
+    margin: 11px 0 20px 0;
 }
 div#first h1{
+    font-size: 40px;
     color: hsl(179, 62%, 43%);
     margin-bottom: 25px;
 }
 
 div#first h2{
+    font-size: 25px;
     color:hsl(71, 73%, 54%);
     margin-bottom: 15px;
 }
 
 div#first p{
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 25px;
     color: hsl(218, 22%, 67%);
 }
 
 
 div#second {
-    padding-left: 27px;
+    font-size: 20px;
+    position: relative;
+    padding-left: 70px;
     background-color: hsl(186, 62%, 43%);
-    height: 300px;
+    height: 330px;
     float: left;
     color: white;
     width: 50%;
-    border:1px solid rgba(0, 0, 0, 0.5);
+    border:0.2px solid rgba(0, 0, 0, 0.3);
     border-right: 0;
+    min-height: 55vh;
 }
 
 #month{
@@ -45,26 +55,74 @@ div#second {
 
 .dollar{
     background-color: hsl(186, 62%, 43%);
-    font-size: 35px;
+    font-size: 40px;
     display: inline;
 }
 
 #per{
-    border:1px solid black;
+    margin-left: 12px;
+    position: absolute;
+    top: 4.8em;
     display: inline;
-    text-align: center;
-    background-color: inherit;
     color: rgba(170, 170, 170, 0.9);
 }
 
-div#third {
-    width: 50%;
-    background-color: hsl(179, 62%, 43%);
-    height: 300px;
-    float: right;
-    font-size: 24px;
-    color: white;
-    border:1px solid rgba(0, 0, 0, 0.5);
+#full{
+    margin-top: 20px;
+}
+
+#sign{
+    font-size: 23px;
+    border:none;
+    color: inherit;
+    background-color: hsl(71, 73%, 54%);
+    width: 48%;
+    height: 50px;
+    border-radius: 5%;
+    text-align: center;
+    padding-top: 2px;
+    margin: 5% 0 0 0; /*30px top*/
+    overflow: hidden;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
 }
 
 
+div#third {
+    min-height: 55vh;
+    padding-left: 50px;
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    height: 330px;
+    float: right;
+    font-size: 24px;
+    color: white;
+    border:0.2px solid rgba(0, 0, 0, 0.3);
+}
+
+#third h4{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+#tuto{
+    margin-bottom: 10px;
+    width: 300px;
+    color: rgba(240, 240, 240);
+}
+
+footer{
+    font-size: 25px;
+    background-color: rgba(218, 50, 240, 0.5);
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+footer p a{
+    text-decoration: none;
+}
+
+footer p a:hover{
+    color: rgba(200, 0, 0);
+}
